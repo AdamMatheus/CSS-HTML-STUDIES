@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Doldurma</title>
+</head>
+<body>
+    <!--form cv-->
+    <form action="result.html" method="get">
+        <div>
+            <h style="font-size:30px;color: blue;"><b>General Information</b></style></h>
+            <br><br><br>
+            
+            <label for="Name"> Your Name:</label>
+            <input type="text" name="Your Name" id="Name" placeholder="Lutfen adinizi giriniz" required>
+            <br><br>
+            
+            <label for="Surname">Your Surname:</label>
+            <input type="text" name="Your Surname" id="Surname">
+            <br><br>
+            
+            <label for="dogum tarihi">Birthdate:</label>
+            <input type="date" name="Birthdate" id="dogum tarihi">
+            &emsp;&emsp;
+            
+            <label>Gender&emsp;&emsp;:</label>
+            
+            <label for="gender1">Erkek:</label>
+            <input type="radio" name="Gender" id="gender1" value="Erkek" checked>
+            
+            <label for="gender2">Kadin:</label>
+            <input type="radio" name="Gender" id="gender2" value="Kadin">
+            <br><br>
+            <label for="telefon">Tel no:</label>
+            <input type="tel" name="Tel no" id="telefon"  placeholder="+48-xxx-xxx-xxx">
+            <br><br>
+            <label fro="mail adres">E-mail:</label>
+            <input type="email" name="e-mail" id="mail adres" placeholder="acbd@defg.com">
+
+
+        </div>
+        <br><br>
+
+        <div>
+            <label style="font-size: 20px;color: black;"><b>Academic Level</b></label>
+            <br><br>
+            <label for="Level-1">High School</label>
+            <input type="checkbox" name="High School" id="Level-1">
+            
+                <label for="egitim suresi">Year:</label>
+                <input type="number" name="Year" id="egitim suresi">
+                &emsp;&emsp;
+            <label for="Level-1">University</label>
+            <input type="checkbox" name="University" id="Level-2">
+            &emsp;&emsp;
+            <label for="Level-2">Master</label>
+            <input type="checkbox" name="Master" id="Level-3">
+            <br><br>
+
+        </div>
+            dosya sec:<input type="file" name="secilen dosya" id="cv"> 
+            hobies:<optgroup>
+                    <option value="sutlac">sutlac</option>
+                    <option value="kunefe">kunefe</option>
+                    <option value="asure">asure</option>
+                </optgroup>
+<input type="reset">
+<input type="submit">
+
+    </form>
+    
+</body>
+</html>
