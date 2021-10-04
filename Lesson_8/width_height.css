@@ -57,15 +57,14 @@ body{
 
 .max-width{
     max-width: 400px;
-    min-width: 200px;
-    max-height: 100px;
     background-color: coral;
     margin-bottom: 10px;
     
 }
 .min-width{
-    min-width: 400px;
-    min-height: 100px;
+    min-width: 200px;
     background-color: darkgray;
+    display: inline-block;
+
     
 }
