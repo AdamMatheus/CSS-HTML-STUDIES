@@ -18,7 +18,7 @@ h3 {
   font-weight: 800;
 }
 
-.button, .button-warning, .button-success, .button-error {
+.button, .button-error, .button-success, .button-warning {
   float: left;
   padding: 5px, 10px;
   margin: 5px;
@@ -58,4 +58,5 @@ header {
 #dark {
   float: left;
   background-color: #b51658;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
